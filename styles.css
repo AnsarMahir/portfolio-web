@@ -1,0 +1,298 @@
+.button{
+    background-color: aliceblue;
+    color: black;
+    display: inline-block;
+}
+#gmail{
+    display: none;
+}
+#what{
+    display: none;
+}
+.cls1{
+ text-align: right;
+ display: inline-block;
+
+}
+.nav img{
+    width: 250px;
+    height: 70px;
+    display: inline-block;
+   
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    margin-bottom: 5px;
+     display: inline-block;
+}
+li{
+    float: right;
+    text-align: right;
+   
+
+}
+li a{
+    text-decoration: none;  
+    color: aliceblue;
+    padding: 13px 15px;
+    font-size: 25px;
+    font-family:'Silkscreen', cursive; 
+   
+}
+body{
+    background-color: rgb(113, 192, 220);
+    
+}
+.main{
+    display: flex;
+    background-color: rgb(113, 192, 220);
+    padding-left: 3%;
+    padding-right: 5%;
+    margin-bottom: 6%;
+    
+    
+}
+.main h2{
+    font-size: 50px;
+    font-family: 'Silkscreen', cursive;
+    margin-bottom: 0;
+}
+.main h1{
+    font-size: 60px;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+.main p{
+    font-size: 20px;
+}
+.desc{
+    flex: 1;
+    color: aliceblue;
+    text-align: center;
+
+}
+.desc1{
+    flex: 1;
+    height: fit-content;
+    text-align: right;
+}
+#im1{
+    border-radius: 40%;
+    height: 65%;
+    width: 65%;
+}
+.img2{
+    width: 40px;
+    height: 40px;
+}
+.fin{
+    margin-top: 10px;
+}
+.sked{
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+}
+.sked p{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.sk{
+    flex: 1;
+}
+.sk h1{
+    font-family: 'Silkscreen', cursive;
+    color: rgb(255, 255, 255);
+    
+}
+.ed{
+    flex: 1;
+}
+.ed h1{
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(255, 255, 255);
+}
+
+/* the below is the css for progress bar*/
+.sk #progress {
+    background: rgb(0, 0, 0);
+    border-radius: 13px;
+    height: 10px;
+    width: 300px;
+    padding: 3px;
+}
+
+.sk #progress:after {
+    content: '';
+    display: block;
+    background: rgb(110, 246, 253);
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+.sk #progress1 {
+    background: rgb(0, 0, 0);
+    border-radius: 13px;
+    height: 10px;
+    width: 300px;
+    padding: 3px;
+}
+
+.sk #progress1:after {
+    content: '';
+    display: block;
+    background: rgb(110, 246, 253);
+    width: 30%;
+    height: 100%;
+    border-radius: 9px;
+}
+.sk #progress2 {
+    background: rgb(0, 0, 0);
+    border-radius: 13px;
+    height: 10px;
+    width: 300px;
+    padding: 3px;
+}
+
+.sk #progress2:after {
+    content: '';
+    display: block;
+    background: rgb(110, 246, 253);
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+}
+.sk #progress3 {
+    background: rgb(0, 0, 0);
+    border-radius: 13px;
+    height: 10px;
+    width: 300px;
+    padding: 3px;
+}
+
+.sk #progress3:after {
+    content: '';
+    display: block;
+    background: rgb(110, 246, 253);
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+.symbol{
+    font-family: 'Silkscreen', cursive;
+    font-size: 25px;
+}
+.sked p{
+    font-size: 25px;
+}
+.ed p{
+    text-align: center;
+}
+.edq{
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.edq h1{
+    text-align: center;
+}
+.text{
+    font-family: 'Silkscreen', cursive;
+}
+.edq p{
+    text-align: center;
+    font-size: 25px;
+}
+.edq1{
+    text-shadow: 20ex;
+    text-decoration-color: black;
+    font-weight: 800;
+}
+.cc{
+    display: flex;
+    color: aliceblue;
+    font-size: 20px;
+}
+.c1{
+    flex: 1;
+    text-align: center;
+    
+}
+.rev{
+    display: none;
+}
+.c2{
+    flex: 1;
+    text-align: center;
+}
+
+
+.right{
+    display: inline-block;
+    vertical-align: middle;
+    box-align: center;
+}
+.left{
+    display: inline-block;
+    vertical-align: middle;
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 3px;
+}
+.left a{
+    color: inherit;
+    text-decoration: none;
+}
+.right1{
+    display: inline;
+    vertical-align: middle;
+    box-align: center;
+}
+.left1{
+    display: inline-block;
+    vertical-align: middle;
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 3px;
+}
+.left1 a{
+    color: inherit;
+    text-decoration: none;
+}
+.cm{
+    display: inline-block;
+    max-width: 30%;
+}
+.fm{
+    display: inline-block;
+    max-width: 30%;
+    margin-left: 15%;
+}
+.c{
+    margin-bottom: 20px;
+}
+
+table{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 2px solid white;
+    width: 50%;
+    height: 200px;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    border: 1px solid white;
+}
+td{
+    border: 1px solid white;
+    text-align: center;
+}
